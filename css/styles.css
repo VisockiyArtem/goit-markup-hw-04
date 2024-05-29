@@ -145,6 +145,11 @@ img {
 
 .section {
     background: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office\ 1\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
@@ -152,10 +157,6 @@ img {
     text-align: center;
     color: #fff;
     padding: 188px 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-image:url(../images/img-11.jpg);
 }
 
 .section-effective {
