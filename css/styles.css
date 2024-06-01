@@ -449,6 +449,41 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.section-portfolio {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.section-portfolio:hover .section-wrap {
+    transform:translateY(0);
+
+}
+
+.section-wrap {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 40px 32px;
+    transform: translateY(100%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-cover-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
 .footer {
     font-weight: 700;
     background: #2e2f42;
