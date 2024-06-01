@@ -195,6 +195,7 @@ img {
     cursor: pointer;
     background-color:#4d5ae5;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden {
@@ -259,6 +260,7 @@ img {
 
 .section-item-ourteam {
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .name-our {
@@ -485,7 +487,7 @@ img {
 }
 
 .container-footer {
-    
+
 }
 
 .footer {
