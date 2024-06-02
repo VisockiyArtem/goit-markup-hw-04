@@ -26,6 +26,10 @@ img {
     display: block;
 }
 
+.header {
+    box-shadow: 0px 1px 1px rgba(46, 47, 66, 0.16);
+}
+
 .link{
     text-decoration: none;
 }
@@ -163,11 +167,10 @@ img {
 
 .section {
     background: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office\ 1\ \(1\).jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
@@ -394,6 +397,7 @@ img {
 .item-mesendger {
     width: 40px;
     height: 40px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .social-network {
@@ -404,6 +408,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .social-network:hover {
@@ -525,6 +530,14 @@ img {
 
 .footer-link:focus {
     background-color: #31d0aa;
+}
+
+.footer-social-item {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fotter-item-svg {
+    fill: #f4f4fd;
 }
 
 .footer {
