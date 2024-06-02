@@ -412,11 +412,11 @@ img {
 }
 
 .social-network:hover {
-    background-color: #404bbf;
+    background-color: #31d0aa
 }
 
 .social-network:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa
 }
 
 .network {
@@ -533,6 +533,8 @@ img {
 }
 
 .footer-social-item {
+    width: 40px;
+    height: 40px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
